@@ -1,0 +1,177 @@
+/*navbg - rgba(53,63,70, 0.85)
+activelink - #4bcaff
+*/
+*{
+	font-family: 'Segoe UI';
+}
+#warpper,#content{
+	width: 100%;
+}
+
+ul.navigation{
+	width: 100%;
+	display: block;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+ul.navigation li{
+	display: inline-block;
+	width: 18%;
+	text-align: center;
+}
+ul.navigation li a{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 12px;
+	display: block;
+	border: none;
+	line-height: 35px;
+	transition: color .5s;
+}
+ul.navigation li a:hover{
+	text-decoration: none;
+	color: #4bcaff;
+	border: 2px #4bcaff solid;
+}
+
+section{
+	width: 100%;
+	padding: 80px 0;
+}
+
+
+.secHeading{
+	width: 100%;
+	position: relative;
+}
+.secHeading h2{
+	font-size: 24px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+.secHeading .headingLine{
+	width: 45px;
+	height: 3px;
+	position: absolute;
+	bottom: -10px;
+	left: 0;
+}
+
+
+/*__________navbar______________*/
+
+nav{
+	height: 150px;
+	line-height: 150px;
+	width: 100%;
+	background-color: rgba(53,63,70, 0.85);
+	position: fixed;
+	z-index: 99;
+}
+
+nav ul.navigation li a{
+	color: #fff;
+}
+
+
+
+/*___________header___________________*/
+
+header{
+	width: 100%;
+	height: 800px;
+	background-image: url(../img/headerBg.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+
+header .headingWrap{
+	padding-top: 400px;
+	background-repeat: no-repeat;
+}
+header .headingWrap h1{
+	text-transform: uppercase;
+	font-size: 36px;
+	letter-spacing: 2px;
+	font-weight: 300;
+	margin: 0;
+	color: #fff;
+	text-align: center;
+	background-image: url(../img/hedingBg.png);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+header .headingWrap h1 span{
+	display: block;
+}
+header .headingWrap h1 span:first-child{
+	padding-bottom: 5px;
+}
+
+/*_______services__________*/
+
+#services{
+	background-color: #4bcaff;
+}
+#services .secHeading h2{
+	color: #fff;
+}
+#services .secHeading .headingLine{
+	background-color: #fff;
+}
+#services .serviceWrap{
+	margin-top: 40px;
+}
+
+#services .serviceWrap .serviceItem{
+	height: 175px;
+	color: #fff;
+}
+#services .serviceWrap .serviceItem h4{
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: semi-bold;
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+#services .serviceWrap .serviceItem p{
+	font-size: 12px;
+	margin: 0;
+}
+
+/*__________portfolio_________*/
+
+#portfolio .secHeading h2{
+	color: #515f67;
+}
+#portfolio .secHeading .headingLine{
+	background-color: #515f67;
+}
+#portfolio ul.navigation li a{
+	color: #69747b;
+}
+#portfolio ul.navigation li a:hover{
+	line-height: 31px;
+	color: #4bcaff;
+}
+#portfolio .portfolioWrap{
+	margin-top: 80px;
+}
+#portfolio .portfolioWrap .portfolioItem{
+	width: 270px;
+	height: 270px;
+	margin: 0 auto;
+	position: relative;
+}
+#portfolio .portfolioWrap .portfolioItem .overlay{
+	width: 100%;
+	height: 100%;
+	line-height: 100%;
+	text-align: center;
+	background-color: rgba(53, 63, 71, 0.9);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
