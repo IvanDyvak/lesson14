@@ -385,7 +385,7 @@ header .heading h1 span:first-child{
 #contact label {
     font-weight: normal;
 }
-#contact .form-control{
+#contact input{
 	height: 60px;
 	border: 1px #ffffff solid;
 	background-color: transparent;
@@ -397,7 +397,10 @@ header .heading h1 span:first-child{
 	margin-bottom: 40px;
 }
 #contact textarea{
-	height: 215px;
+    height: 215px;
+    border: 1px #ffffff solid;
+    background-color: transparent;
+    border-radius: 0;
 }
 #contact button{
 	width: 370px;
